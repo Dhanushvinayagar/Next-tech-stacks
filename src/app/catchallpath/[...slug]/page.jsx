@@ -1,5 +1,5 @@
 export default function Slug({ params }) {
-    // render this for 
+    // conditional rendering
     if (params.slug.length === 1)
         return (
             <>
